@@ -1,0 +1,17 @@
+body {
+    background-image: url('./bg.jpg');
+  }
+
+
+.header{
+    display: flex;
+    position: relative; 
+    gap:15px;
+    color: white;
+    justify-content: center;
+}
+
+.logo{
+    size: 5px;
+}
+
