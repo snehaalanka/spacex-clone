@@ -1,17 +1,67 @@
 body {
     background-image: url('./bg.jpg');
-  }
+    }
 
 
 .header{
+    font-family: 'Moulpali';font-size: 15px;
     display: flex;
     position: relative; 
-    gap:15px;
+    gap: 20px;
     color: white;
-    justify-content: center;
+    justify-content:center;
+    font-stretch:semi-expanded;
 }
 
 .logo{
     size: 5px;
+    }
+
+.spacex{
+    position: absolute;
+    top:0px;
+    left: 300px;
+    font-family: 'Bricolage Grotesque';font-size: 22px;
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:0px;
+    
+
 }
 
+.launch{
+    color:white;
+    position: absolute;
+    bottom: 450px;
+    right: 480px;
+    font-family: 'Lunasima';font-size: 22px;
+}
+
+.starlink{
+    color:white;
+    position: absolute;
+    bottom: 375px;
+    right: 480px;
+    font-family: 'Lunasima';font-size: 22px;
+    font-size:40px;
+    font-weight: bold;
+    
+    
+}
+
+.rewatch{
+    background-color: transparent;
+    color:white;
+    position:absolute;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right:70px;
+    right:495px;
+    bottom:350px;
+    border: 70px;
+    border-style:solid;
+    border-width:2px;
+    font-family: 'Lunasima';font-size:10px;
+    margin:-15px;
+
+}
